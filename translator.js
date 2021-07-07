@@ -119,3 +119,14 @@ function fn2()
 
 	english(str);
 }
+
+function copy() {
+  /* Get the text field */
+  var r = document.createRange();
+  r.selectNode(document.getElementById("Translate_laoshi"));
+  window.getSelection().removeAllRanges();
+  window.getSelection().addRange(r);
+  document.execCommand('copy');
+  window.getSelection().removeAllRanges();
+  alert("Copied to clipboard")
+}

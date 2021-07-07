@@ -25,13 +25,17 @@
 		<input class="Input1" id="English" placeholder="Enter in text to translate to English or lao shi">
 		<br>
 		<br>
-		<button class="trans" onclick="fn1()" id = "btn1">Translate to English from Laoshi</button>
-		<button class="trans" onclick="fn2()" id = "btn1">Translate to Laoshi from English</button>
+		<button class="trans" onclick="fn2()" id = "btn1">Translate to Laoshi</button>
+		<button class="trans" onclick="fn1()" id = "btn1">Translate to English</button>
 		<br><br>
 		<div class="square">
 		<br>
-		<p id="Translate_laoshi"></p>
+		<div id="Food">
+		<p type="text" id="Translate_laoshi"></p>
 		</div>
+		</div>
+		<br>
+		<button class="trans" onclick="copy()" id = "btn3">Copy to clipboard</button>
 		<p class="error" id="Error"></p>
 		</center>
 	</body>
