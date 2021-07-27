@@ -1,7 +1,7 @@
 function loader() 
 {
   var array1 = [];
-  var numbers = 0;
+  var numbers = 1;
   while(numbers < 75)
   {
     array1.push("Memes/" + String(numbers) + ".jpg");
