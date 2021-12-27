@@ -5,6 +5,7 @@ function fn1()
 		}
 function laoshi(thing)
 {	
+	alert(thing);
 	thing = thing.split(" ").join("_");
 	if(thing == "okgc")
 	{
