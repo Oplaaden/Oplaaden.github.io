@@ -6,6 +6,8 @@ function fn1()
 function laoshi(thing)
 {	
 	alert(thing);
+	console.log(thing);
+	console.log("Hi");
 	thing = thing.split(" ").join("_");
 	if(thing == "okgc")
 	{
