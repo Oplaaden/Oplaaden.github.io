@@ -9,7 +9,7 @@ function laoshi(thing)
 	console.log(thing);
 	console.log("Hi");
 	thing = thing.split(" ").join("_");
-	if(thing == "okgc")
+	if(thing != "okgc")
 	{
 		Newarray = "This isn't an actual code, Ryan"
 		document.getElementById("Error").innerHTML = "";
