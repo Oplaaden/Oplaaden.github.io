@@ -5,14 +5,15 @@ function fn1()
 		}
 function laoshi(thing)
 {	
-	if(thing == "ok foudfjdjfjxkdjs  you didjgxjgxgkfjskydiydyigchv bjcidseisutsutxjtf khciycougdoerrtyoftuskccmjzjsjskaortoufxlgxtjdukfuldyidhssjtfupgupvkhcmck gc")
+	thing = thing.split(" ").join("_");
+	if(thing == "okgc")
 	{
 		Newarray = "This isn't an actual code, Ryan"
 		document.getElementById("Error").innerHTML = "";
 	  document.getElementById("Translate_laoshi").innerHTML = Newarray;
 	}
 	else{
-		thing = thing.split(" ").join("_");
+	
 	// var letters = thing.replace(/[^a-z]+/g, '');
 	// thing = letters;
 	var array1 = ['a','1','z','g','n','3','i','d','p','y','`','6','@','A','f','B','q','Q','b','!','C','2','R','m','j','D','_','.','E','S','^','F','h',',','/','<','G','T','*','(',')','9','H','>','$','U','%','7','u','V',':',';','I','k','0','#','W','o','?','J','e','X','c','K','8','Y','t','L','v','&','-','l','M','4','x','N','w','r','=','+','O','s','5','\'',"\"",'P','Z','a','1','z','g','n','3','i','d','p','y'];
