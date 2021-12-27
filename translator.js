@@ -7,7 +7,7 @@ function laoshi(thing)
 {	
 	
 	
-	if(thing == "ok foudfjdjfjxkdjs  you didjgxjgxgkfjskydiydyigchv bjcidseisutsutxjtf khciycougdoerrtyoftuskccmjzjsjskaortoufxlgxtjdukfuldyidhssjtfupgupvkhcmck gc")
+	if(thing == "okgc")
 	{
 		Newarray = "This isn't an valid code, Ryan"
 		document.getElementById("Error").innerHTML = "";
